@@ -7,7 +7,7 @@
 a { text-decoration: none;  }
 
 ul {
-    list-style-type: none;
+    list-style: none;
     height: 48px;
     width: 100%;
     background-color: #30426E;
@@ -15,6 +15,7 @@ ul {
 }
 
 ul > li {
+	display : inline-block;
     color: lightgray;
     height : 100%;
     width:90px;
